@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="wrapper">
+        <div class="header-container">
+            <img src="/Frontend Intensive/media/airbnb.png" alt="Airbnb Logo" class="logo">
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#">Homes</a></li>
+                    <li><a href="#">Experience</a></li>
+            </nav>
+            <nav class="nav-right">
+                <ul>
+                    <li><a href="#">Airbnb your home</a></li>
+                    <li><a href="#"><i class="fa fa-globe" style="font-size:18px"></i></a></li>
+                    <ul class="dropdown">
+                        <li><a href="#"><i class="fa fa-bars" style="font-size:18px"></i></a></li>
+                        <li><a href="#"><i class="fa fa-user" style="font-size:18px"></i></a></li>
+                    </ul>
+                </ul>
+            </nav>
+            <div class="searchbox">
+                <ul>
+                    <li>
+                        <div class="label">Where</div><input type="text" placeholder="Search Destination">
+                    </li>
+                    <li><div class="label">Check in</div><input type="text" placeholder="Add dates"></li>
+                    <li><div class="label">Check out</div><input type="text" placeholder="Add dates"></li>
+                    <li>
+                        <div class="label">Who</div><input type="text" placeholder="Add guests">
+                    </li>
+                    <li>
+                        <button class="search-button"><i class="fa fa-search" style="font-size:18px"></i></button></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="main-wrapper">
+        <div class="main-container">
+            <div class="filter-icon">
+                <ul>
+                    <li><a href="#"><img src="https://a0.muscache.com/pictures/aaa02c2d-9f0d-4c41-878a-68c12ec6c6bd.jpg"><div class="filter-text">Farms</div></a></li>
+                    <li><a href="#"><img src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"><div class="filter-text">Icons</div></a></li>
+                    <li><a href="#"><img src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg"><div class="filter-text">Amazing pools</div></a></li>
+                    <li><a href="#"><img src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg"><div class="filter-text">Beachfront</div></a></li>
+                    <li><a href="#"><img src="https://a0.muscache.com/pictures/248f85bf-e35e-4dc3-a9a1-e1dbff9a3db4.jpg"><div class="filter-text">Top of the world</div></a></li>
+                    <li><a href="#"><img src="https://a0.muscache.com/pictures/c0a24c04-ce1f-490c-833f-987613930eca.jpg"><div class="filter-text">National parks</div></a></li>
+                    <li><a href="#"><img src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg"><div class="filter-text">Amazing views</div></a></li>
+                    <li><a href="#"><img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg"><div class="filter-text">OMG!</div></a></li>
+                </ul>
+                <div class="filterbtn"><i class="fa fa-sliders" style="font-size:18px"></i>&nbsp;&nbsp; Filters</div>
+                <div class="filterbtn">Display total before taxes&nbsp;&nbsp; <i class="fa fa-toggle-off" style="font-size:18px"></i></div>
+            </div>
+        </div>
+        <div class="img-container">
+            <div class="card">
+                <img src="https://a0.muscache.com/im/pictures/3aa09cd0-bcec-430e-9f25-7384cffb6a58.jpg?im_w=720" alt="">
+                <h3>Coimbatore, India</h3>
+                <h4>239 kilomerets away</h4>
+                <div class="price">₹1,836 night</div>
+                <div class="guestfvt"><i class="fa fa-trophy" style="font-size:12px"></i> Guest favourite</div>
+                <div class="rating"><span class="fa fa-star"></span> 5.0</div>
+                <div class="favourite"><i class="fa fa-heart"></i></div>
+            </div>
+            <div class="card">
+                <img src="https://a0.muscache.com/im/pictures/458e3fa3-3b67-4dc5-87b3-65178557429b.jpg?im_w=720" alt="">
+                <h3>Karnataka, India</h3>
+                <h4>199 kilomerets away</h4>
+                <div class="price">₹6,848 night</div>
+                <div class="guestfvt"><i class="fa fa-trophy" style="font-size:12px"></i> Guest favourite</div>
+                <div class="rating"><span class="fa fa-star"></span> 5.0</div>
+                <div class="favourite"><i class="fa fa-heart"></i></div>
+            </div>
+            <div class="card">
+                <img src="https://a0.muscache.com/im/pictures/c1231e97-b1ca-433f-ac48-0cf3c508f9a7.jpg?im_w=720" alt="">
+                <h3>Coimbatore, India</h3>
+                <h4>239 kilomerets away</h4>
+                <div class="price">₹4,656 night</div>
+                <div class="guestfvt"><i class="fa fa-trophy" style="font-size:12px"></i> Guest favourite</div>
+                <div class="rating"><span class="fa fa-star"></span> 5.0</div>
+                <div class="favourite"><i class="fa fa-heart"></i></div>
+            </div>
+            <div class="card">
+                <img src="https://a0.muscache.com/im/pictures/458be275-af05-4cd6-ae4c-48dbfc0b5d5d.jpg?im_w=720" alt="">
+                <h3>Coimbatore, India</h3>
+                <h4>239 kilomerets away</h4>
+                <div class="price">₹8,575 night</div>
+                <div class="guestfvt"><i class="fa fa-trophy" style="font-size:12px"></i> Guest favourite</div>
+                <div class="rating"><span class="fa fa-star"></span> 5.0</div>
+                <div class="favourite"><i class="fa fa-heart"></i></div>
+            </div>
+            <div class="card">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1184425740298360905/original/9d76e027-2121-40c5-a198-881eb8a6fa5a.jpeg?im_w=720" alt="">
+                <h3>Karnataka, India</h3>
+                <h4>239 kilomerets away</h4>
+                <div class="price">₹3,878 night</div>
+                <div class="guestfvt"><i class="fa fa-trophy" style="font-size:12px"></i> Guest favourite</div>
+                <div class="rating"><span class="fa fa-star"></span> 5.0</div>
+                <div class="favourite"><i class="fa fa-heart"></i></div>
+            </div>
+            <div class="card">
+                <img src="https://a0.muscache.com/im/pictures/a6e9ab77-4626-4cc7-bd57-bfbf1dba49b4.jpg?im_w=720" alt="">
+                <h3>Bengaluru Urban, India</h3>
+                <h4>239 kilomerets away</h4>
+                <div class="price">₹2,875 night</div>
+                <div class="guestfvt"><i class="fa fa-trophy" style="font-size:12px"></i> Guest favourite</div>
+                <div class="rating"><span class="fa fa-star"></span> 5.0</div>
+                <div class="favourite"><i class="fa fa-heart"></i></div>
+            </div>
+            <div class="card">
+                <img src="https://a0.muscache.com/im/pictures/12b95371-1459-4e2a-b2f2-f468cb0a2256.jpg?im_w=720" alt="">
+                <h3>Otty, India</h3>
+                <h4>239 kilomerets away</h4>
+                <div class="price">₹4,892 night</div>
+                <div class="guestfvt"><i class="fa fa-trophy" style="font-size:12px"></i> Guest favourite</div>
+                <div class="rating"><span class="fa fa-star"></span> 5.0</div>
+                <div class="favourite"><i class="fa fa-heart"></i></div>
+            </div>
+            <div class="card">
+                <img src="https://a0.muscache.com/im/pictures/27fb3a6e-3938-4af3-a090-20c9793c1c1f.jpg?im_w=720" alt="">
+                <h3>Kodagu, India</h3>
+                <h4>239 kilomerets away</h4>
+                <div class="price">₹1,899 night</div>
+                <div class="guestfvt"><i class="fa fa-trophy" style="font-size:12px"></i> Guest favourite</div>
+                <div class="rating"><span class="fa fa-star"></span> 5.0</div>
+                <div class="favourite"><i class="fa fa-heart"></i></div>
+            </div>
+            <div class="card">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-45808969/original/cbe52220-3564-4864-8ab6-e699b45db508.jpeg?im_w=720" alt="">
+                <h3>Chikmagaluru, India</h3>
+                <h4>239 kilomerets away</h4>
+                <div class="price">₹5,473 night</div>
+                <div class="guestfvt"><i class="fa fa-trophy" style="font-size:12px"></i> Guest favourite</div>
+                <div class="rating"><span class="fa fa-star"></span> 5.0</div>
+                <div class="favourite"><i class="fa fa-heart"></i></div>
+            </div>
+            <div class="card">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-580750158604624089/original/e2d63349-e2f2-4c0e-9482-45c36f4e4aee.jpeg?im_w=720" alt="">
+                <h3>Kalalvadi, India</h3>
+                <h4>239 kilomerets away</h4>
+                <div class="price">₹5,628 night</div>
+                <div class="guestfvt"><i class="fa fa-trophy" style="font-size:12px"></i> Guest favourite</div>
+                <div class="rating"><span class="fa fa-star"></span> 5.0</div>
+                <div class="favourite"><i class="fa fa-heart"></i></div>
+            </div>
+            <div class="card">
+                <img src="https://a0.muscache.com/im/pictures/b18fd982-5c85-4ab4-b6c4-2245fb5c0d7f.jpg?im_w=720" alt="">
+                <h3>Niiris, India</h3>
+                <h4>239 kilomerets away</h4>
+                <div class="price">₹3,464 night</div>
+                <div class="guestfvt"><i class="fa fa-trophy" style="font-size:12px"></i> Guest favourite</div>
+                <div class="rating"><span class="fa fa-star"></span> 5.0</div>
+                <div class="favourite"><i class="fa fa-heart"></i></div>
+            </div>
+            <div class="card">
+                <img src="https://a0.muscache.com/im/pictures/310071fb-23cd-4e8d-8fe7-961aaad367fc.jpg?im_w=720" alt="">
+                <h3>Bilagola, India</h3>
+                <h4>239 kilomerets away</h4>
+                <div class="price">₹2,767 night</div>
+                <div class="guestfvt"><i class="fa fa-trophy" style="font-size:12px"></i> Guest favourite</div>
+                <div class="rating"><span class="fa fa-star"></span> 5.0</div>
+                <div class="favourite"><i class="fa fa-heart"></i></div>
+            </div>
+            <div class="card">
+                <img src="https://a0.muscache.com/im/pictures/bd9b2efd-0046-4b2e-ac7e-de59f6458521.jpg?im_w=720" alt="">
+                <h3>Maysuru, India</h3>
+                <h4>239 kilomerets away</h4>
+                <div class="price">₹2,222 night</div>
+                <div class="guestfvt"><i class="fa fa-trophy" style="font-size:12px"></i> Guest favourite</div>
+                <div class="rating"><span class="fa fa-star"></span> 5.0</div>
+                <div class="favourite"><i class="fa fa-heart"></i></div>
+            </div>
+            <div class="card">
+                <img src="https://a0.muscache.com/im/pictures/c5a5bd16-63cb-41b4-af48-139a1dcfaf95.jpg?im_w=720" alt="">
+                <h3>Bengaluru, India</h3>
+                <h4>239 kilomerets away</h4>
+                <div class="price">₹2,222 night</div>
+                <div class="guestfvt"><i class="fa fa-trophy" style="font-size:12px"></i> Guest favourite</div>
+                <div class="rating"><span class="fa fa-star"></span> 5.0</div>
+                <div class="favourite"><i class="fa fa-heart"></i></div>
+            </div>
+            <div class="card">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-47209567/original/5202fc72-5e7e-49e3-af0e-e2b5e9084a0a.jpeg?im_w=720" alt="">
+                <h3>Coimbatore, India</h3>
+                <h4>239 kilomerets away</h4>
+                <div class="price">₹ night</div>
+                <div class="guestfvt"><i class="fa fa-trophy" style="font-size:12px"></i> Guest favourite</div>
+                <div class="rating"><span class="fa fa-star"></span> 5.0</div>
+                <div class="favourite"><i class="fa fa-heart"></i></div>
+            </div>
+            <div class="card">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-42366067/original/0973118e-332e-4f01-a6a2-fd91795d2228.jpeg?im_w=720" alt="">
+                <h3>Coimbatore, India</h3>
+                <h4>239 kilomerets away</h4>
+                <div class="price">₹ night</div>
+                <div class="guestfvt"><i class="fa fa-trophy" style="font-size:12px"></i> Guest favourite</div>
+                <div class="rating"><span class="fa fa-star"></span> 5.0</div>
+                <div class="favourite"><i class="fa fa-heart"></i></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
